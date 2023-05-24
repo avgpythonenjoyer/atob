@@ -9,11 +9,11 @@ string btoa(const string&in value)
 {
     return codec::base64_encode(value);
 }
-string atob_url(const string&in value)
+string from_hex(const string&in value)
 {
-    return codec::base64_url_decode(value);
+    return codec::hex_decode(value);
 }
-string btoa_url(const string&in value)
+string to_hex(const string&in value)
 {
-    return codec::base64_url_encode(value);
+    return codec::hex_encode(value);
 }

@@ -1,5 +1,4 @@
-#include <std/string>
-#include <std/codec>
+import from "codec"
 
 string atob(const string&in value)
 {

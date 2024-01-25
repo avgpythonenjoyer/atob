@@ -1,7 +1,7 @@
 {
 	"name": "atob",
 	"type": "vm",
-	"index": "addon.as",
-	"runtime": "21.30.18",
-	"version": "1.0.0"
+    "runtime": "1.37.88.176",
+	"version": "1.0.1",
+	"index": "addon.as"
 }

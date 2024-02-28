@@ -1,4 +1,4 @@
-import from "codec"
+import from "codec";
 
 string atob(const string&in value)
 {
